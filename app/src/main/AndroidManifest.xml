@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ratnabarot.motivationalquotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name=".Success"
+        android:label="@string/category1"
+        android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Courage"
+            android:label="@string/category2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Dreams"
+            android:label="@string/category3"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Workout"
+            android:label="@string/category4"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Life"
+            android:label="@string/category5"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Gratitude"
+            android:label="@string/category6"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

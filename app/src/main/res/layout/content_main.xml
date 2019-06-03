@@ -19,21 +19,21 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="@dimen/s_height" />
 
     <ImageView
-        android:id="@+id/Smoothie1"
+        android:id="@+id/Success"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height"
         android:layout_gravity="center"
         android:clickable="true"
-        android:contentDescription="@string/strawberrybanana"
+        android:contentDescription="@string/category1"
         android:focusable="true"
-        android:onClick="Smoothie1"
+        android:onClick="success"
         android:src="@mipmap/si" />
 
     <TextView
-        android:id="@+id/t_strawberrybanana"
+        android:id="@+id/t_success"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/strawberrybanana"
+        android:text="@string/category1"
         android:textAlignment="center"
         android:textSize="@dimen/content_font"/>
 
@@ -42,21 +42,21 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="@dimen/s_height" />
 
     <ImageView
-        android:id="@+id/Smoothie2"
+        android:id="@+id/Courage"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height"
         android:layout_gravity="center"
         android:clickable="true"
-        android:contentDescription="@string/greensmoothie"
+        android:contentDescription="@string/category2"
         android:focusable="true"
-        android:onClick="Smoothie2"
-        app:srcCompat="@mipmap/di"/>
+        android:onClick="courage"
+        app:srcCompat="@mipmap/ci" />
 
     <TextView
-        android:id="@+id/t_greensmoothie"
+        android:id="@+id/t_courage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/greensmoothie"
+        android:text="@string/category2"
         android:textAlignment="center"
         android:textSize="@dimen/content_font"/>
 
@@ -65,21 +65,21 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="@dimen/s_height" />
 
     <ImageView
-        android:id="@+id/Smoothie3"
+        android:id="@+id/Dreams"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height"
         android:layout_gravity="center"
         android:clickable="true"
-        android:contentDescription="@string/peachsmoothie"
+        android:contentDescription="@string/category3"
         android:focusable="true"
-        android:onClick="Smoothie3"
-        app:srcCompat="@drawable/peachsmoothie" />
+        android:onClick="dreams"
+        app:srcCompat="@mipmap/di" />
 
     <TextView
-        android:id="@+id/t_peachsmoothie"
+        android:id="@+id/t_dreams"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/peachsmoothie"
+        android:text="@string/category3"
         android:textAlignment="center"
         android:textSize="@dimen/content_font"/>
 
@@ -88,21 +88,21 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="@dimen/s_height" />
 
     <ImageView
-        android:id="@+id/Smoothie4"
+        android:id="@+id/Workout"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height"
         android:layout_gravity="center"
         android:clickable="true"
-        android:contentDescription="@string/carrotcake"
+        android:contentDescription="@string/category4"
         android:focusable="true"
-        android:onClick="Smoothie4"
-        app:srcCompat="@drawable/carrotcakesmoothie" />
+        android:onClick="workout"
+        app:srcCompat="@mipmap/wi" />
 
     <TextView
-        android:id="@+id/t_carrotcakesmoothie"
+        android:id="@+id/t_workout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/carrotcake"
+        android:text="@string/category4"
         android:textAlignment="center"
         android:textSize="@dimen/content_font"/>
 
@@ -111,21 +111,44 @@ tools:showIn="@layout/app_bar_main">
         android:layout_height="@dimen/s_height" />
 
     <ImageView
-        android:id="@+id/Smoothie5"
+        android:id="@+id/Life"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height"
         android:layout_gravity="center"
         android:clickable="true"
-        android:contentDescription="@string/blueberrypie"
+        android:contentDescription="@string/category5"
         android:focusable="true"
-        android:onClick="Smoothie5"
-        app:srcCompat="@drawable/blueberrypiesmoothie" />
+        android:onClick="life"
+        app:srcCompat="@mipmap/li" />
 
     <TextView
-        android:id="@+id/t_blueberrypiesmoothie"
+        android:id="@+id/t_life"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/blueberrypie"
+        android:text="@string/category5"
+        android:textAlignment="center"
+        android:textSize="@dimen/content_font"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s_height" />
+
+    <ImageView
+        android:id="@+id/Gratitude"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:contentDescription="@string/category6"
+        android:focusable="true"
+        android:onClick="gratitude"
+        app:srcCompat="@mipmap/gi" />
+
+    <TextView
+        android:id="@+id/t_gratitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category6"
         android:textAlignment="center"
         android:textSize="@dimen/content_font"/>
 
